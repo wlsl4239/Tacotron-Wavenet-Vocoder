@@ -1,3 +1,3 @@
-# Bixby-Capsule
+# AI-TTS
 
-빅스비 캡슐 챌린지
+ai-tts
