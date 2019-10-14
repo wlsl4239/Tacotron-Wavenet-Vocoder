@@ -21,9 +21,11 @@ Based on
 - local condition을 구현한 wavenet-vocoder 구현은 [r9y9](https://github.com/r9y9/wavenet_vocoder)의 구현이 대표적이다.
 - local condition으로 mel spectrogram을 넣어주는데, mel spectrogram은 raw audio 길이보다 짧아지기 때문에 upsampling 과정이 필요하다. upsampling은 conv2d_transpose를 이용한다.
 
+
 ## Tacotron 2
 - [Tacotron2](https://arxiv.org/abs/1712.05884)에서는 모델 구조도 바뀌었고, Location Sensitive Attention, Stop Token, Vocoder로 Wavenet을 제안하고 있다.
 - Tacotron2의 구현은 [Rayhane-mamah](https://github.com/Rayhane-mamah/Tacotron-2)의 것이 있는데, 이 역시, keithito, r9y9의 코드를 기반으로 발전된 것이다.
+
 
 ## This Project
 * Tacotron 모델에 Wavenet Vocoder를 적용하는 것이 1차 목표이다.
