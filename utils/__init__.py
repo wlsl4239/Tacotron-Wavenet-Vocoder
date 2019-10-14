@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import re,json,sys,os
 import tensorflow as tf
+import requests
 from tqdm import tqdm
 from contextlib import closing
 from multiprocessing import Pool
@@ -247,4 +248,32 @@ def warning(msg):
     print(" [!] {}".format(msg))
     print("="*40)
     print()		
-		
+
+def download_with_url(url, dest_path, chunk_size=32*1024):
+    with open(dest_path, "wb") as f:
+        response = requests.get(url, stream=True)
+        total_size = int(response.headers.get('content-length', 0))
+
+        for chunk in response.iter_content(chunk_size):
+            if chunk: # filter out keep-alive new chunks
+                f.write(chunk)
+    return True
+
+def get_encoder_name():
+    if which("avconv"):
+        return "avconv"
+    elif which("ffmpeg"):
+        return "ffmpeg"
+    else:
+        return "ffmpeg"
+
+def which(program):
+    if os.name == "nt" and not program.endswith(".exe"):
+        program += ".exe"
+
+    envdir_list = [os.curdir] + os.environ["PATH"].split(os.pathsep)
+
+    for envdir in envdir_list:
+        program_path = os.path.join(envdir, program)
+        if os.path.isfile(program_path) and os.access(program_path, os.X_OK):
+            return program_path
