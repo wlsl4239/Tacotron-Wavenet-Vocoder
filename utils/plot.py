@@ -7,9 +7,8 @@ from jamo import h2j, j2hcj
 matplotlib.use('Agg')
 
 # font 문제 해결
-#matplotlib.rc('font', family="NanumBarunGothic")
-
-#font_manager._rebuild()  <---- 1번만 해주면 됨
+matplotlib.rc('font', family="NanumBarunGothic")
+font_manager._rebuild()  #<---- 1번만 해주면 됨
 
 font_fname = './/utils//NanumBarunGothic.ttf'
 font_name = font_manager.FontProperties(fname=font_fname).get_name()

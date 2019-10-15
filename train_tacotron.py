@@ -261,8 +261,8 @@ def main():
     parser.add_argument('--data_paths', default='./data/moon,./data/son')
     
     
-    parser.add_argument('--load_path', default=None)   # 아래의 'initialize_path'보다 우선 적용
-    #parser.add_argument('--load_path', default='logdir-tacotron/moon+son_2019-10-14_15-00-54')
+    #parser.add_argument('--load_path', default=None)   # 아래의 'initialize_path'보다 우선 적용
+    parser.add_argument('--load_path', default='logdir-tacotron/moon+son_2019-10-14_08-01-21')
     
     
     parser.add_argument('--initialize_path', default=None)   # ckpt로 부터 model을 restore하지만, global step은 0에서 시작

@@ -3251,3 +3251,268 @@ Starting new training run
 [2019-10-15 00:05:28.726]    Step 2962    [20.617 sec/step, loss=0.77704, avg_loss=0.51623]
 [2019-10-15 00:05:34.407]    Generated 32 batches of size 32 in 5.676 sec
 [2019-10-15 00:05:35.550]    Step 2963    [20.611 sec/step, loss=0.35921, avg_loss=0.51543]
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2019-10-15 09:23:58.761]    ==================================================
+[2019-10-15 09:23:58.761]    ==================================================
+[2019-10-15 09:23:58.761]     [*] Checkpoint path: logdir-tacotron/moon+son_2019-10-14_08-01-21\model.ckpt
+[2019-10-15 09:23:58.762]     [*] Loading training data from: ['./data/moon', './data/son']
+[2019-10-15 09:23:58.762]     [*] Using model: logdir-tacotron/moon+son_2019-10-14_08-01-21
+[2019-10-15 09:23:58.767]    Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  allow_clipping_in_normalization: True
+  attention_size: 256
+  attention_state_size: 256
+  attention_type: bah_mon_norm
+  cleaners: korean_cleaners
+  clip_mels_length: True
+  dec_layer_num: 2
+  dec_prenet_sizes: [256, 128]
+  dec_rnn_size: 256
+  decay_learning_rate_mode: 0
+  dilation_channels: 32
+  dilations: [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
+  dropout_prob: 0.5
+  embedding_size: 256
+  enc_bank_channel_size: 128
+  enc_bank_size: 16
+  enc_highway_depth: 4
+  enc_maxpool_width: 2
+  enc_prenet_sizes: [256, 128]
+  enc_proj_sizes: [128, 128]
+  enc_proj_width: 3
+  enc_rnn_size: 128
+  fft_size: 2048
+  filter_width: 2
+  gc_channels: 32
+  griffin_lim_iters: 60
+  hop_size: 300
+  ignore_recognition_level: 0
+  initial_data_greedy: True
+  initial_filter_width: 32
+  initial_phase_step: 8000
+  input_type: raw
+  l2_regularization_strength: 0
+  main_data: ['']
+  main_data_greedy_factor: 0
+  max_abs_value: 4.0
+  max_checkpoints: 3
+  max_iters: 200
+  max_mel_frames: 1000
+  min_iters: 30
+  min_level_db: -100
+  min_tokens: 30
+  model_type: deepvoice
+  momentum: 0.9
+  name: Tacotron-Wavenet-Vocoder
+  num_mels: 80
+  num_steps: 200000
+  optimizer: adam
+  out_channels: 30
+  post_bank_channel_size: 128
+  post_bank_size: 8
+  post_highway_depth: 4
+  post_maxpool_width: 2
+  post_proj_sizes: [256, 80]
+  post_proj_width: 3
+  post_rnn_size: 128
+  power: 1.5
+  preemphasis: 0.97
+  preemphasize: True
+  prioritize_loss: False
+  quantization_channels: 256
+  recognition_loss_coeff: 0.2
+  reduction_factor: 5
+  ref_level_db: 20
+  rescaling: True
+  rescaling_max: 0.999
+  residual_channels: 32
+  sample_rate: 24000
+  sample_size: 15000
+  scalar_input: True
+  signal_normalization: True
+  silence_threshold: 0
+  skip_channels: 512
+  skip_inadequate: False
+  skip_path_filter: False
+  speaker_embedding_size: 16
+  store_metadata: False
+  symmetric_mels: True
+  tacotron_initial_learning_rate: 0.001
+  trim_fft_size: 512
+  trim_hop_size: 128
+  trim_silence: True
+  trim_top_db: 23
+  upsample_factor: [5, 5, 12]
+  use_biases: True
+  use_fixed_test_inputs: False
+  use_lws: False
+  wavenet_batch_size: 8
+  wavenet_clip_gradients: False
+  wavenet_decay_rate: 0.5
+  wavenet_decay_steps: 300000
+  wavenet_learning_rate: 0.001
+  win_size: 1200
+[2019-10-15 09:23:58.835]     [./data/moon] Loaded metadata for 0 examples (0.00 hours)
+
+-----------------------------------------------------------------
+Starting new training run
+-----------------------------------------------------------------
+[2019-10-15 09:25:23.743]    ==================================================
+[2019-10-15 09:25:23.744]    ==================================================
+[2019-10-15 09:25:23.744]     [*] Checkpoint path: logdir-tacotron/moon+son_2019-10-14_08-01-21\model.ckpt
+[2019-10-15 09:25:23.744]     [*] Loading training data from: ['./data/moon', './data/son']
+[2019-10-15 09:25:23.744]     [*] Using model: logdir-tacotron/moon+son_2019-10-14_08-01-21
+[2019-10-15 09:25:23.747]    Hyperparameters:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  allow_clipping_in_normalization: True
+  attention_size: 256
+  attention_state_size: 256
+  attention_type: bah_mon_norm
+  cleaners: korean_cleaners
+  clip_mels_length: True
+  dec_layer_num: 2
+  dec_prenet_sizes: [256, 128]
+  dec_rnn_size: 256
+  decay_learning_rate_mode: 0
+  dilation_channels: 32
+  dilations: [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
+  dropout_prob: 0.5
+  embedding_size: 256
+  enc_bank_channel_size: 128
+  enc_bank_size: 16
+  enc_highway_depth: 4
+  enc_maxpool_width: 2
+  enc_prenet_sizes: [256, 128]
+  enc_proj_sizes: [128, 128]
+  enc_proj_width: 3
+  enc_rnn_size: 128
+  fft_size: 2048
+  filter_width: 2
+  gc_channels: 32
+  griffin_lim_iters: 60
+  hop_size: 300
+  ignore_recognition_level: 0
+  initial_data_greedy: True
+  initial_filter_width: 32
+  initial_phase_step: 8000
+  input_type: raw
+  l2_regularization_strength: 0
+  main_data: ['']
+  main_data_greedy_factor: 0
+  max_abs_value: 4.0
+  max_checkpoints: 3
+  max_iters: 200
+  max_mel_frames: 1000
+  min_iters: 30
+  min_level_db: -100
+  min_tokens: 30
+  model_type: deepvoice
+  momentum: 0.9
+  name: Tacotron-Wavenet-Vocoder
+  num_mels: 80
+  num_steps: 200000
+  optimizer: adam
+  out_channels: 30
+  post_bank_channel_size: 128
+  post_bank_size: 8
+  post_highway_depth: 4
+  post_maxpool_width: 2
+  post_proj_sizes: [256, 80]
+  post_proj_width: 3
+  post_rnn_size: 128
+  power: 1.5
+  preemphasis: 0.97
+  preemphasize: True
+  prioritize_loss: False
+  quantization_channels: 256
+  recognition_loss_coeff: 0.2
+  reduction_factor: 5
+  ref_level_db: 20
+  rescaling: True
+  rescaling_max: 0.999
+  residual_channels: 32
+  sample_rate: 24000
+  sample_size: 15000
+  scalar_input: True
+  signal_normalization: True
+  silence_threshold: 0
+  skip_channels: 512
+  skip_inadequate: False
+  skip_path_filter: False
+  speaker_embedding_size: 16
+  store_metadata: False
+  symmetric_mels: True
+  tacotron_initial_learning_rate: 0.001
+  trim_fft_size: 512
+  trim_hop_size: 128
+  trim_silence: True
+  trim_top_db: 23
+  upsample_factor: [5, 5, 12]
+  use_biases: True
+  use_fixed_test_inputs: False
+  use_lws: False
+  wavenet_batch_size: 8
+  wavenet_clip_gradients: False
+  wavenet_decay_rate: 0.5
+  wavenet_decay_steps: 300000
+  wavenet_learning_rate: 0.001
+  win_size: 1200
+[2019-10-15 09:25:34.953]     [./data/moon] Loaded metadata for 34 examples (0.02 hours)
+[2019-10-15 09:25:34.954]     [./data/moon] Max length: 340
+[2019-10-15 09:25:34.954]     [./data/moon] Min length: 152
+[2019-10-15 09:25:47.363]     [./data/son] Loaded metadata for 38 examples (0.05 hours)
+[2019-10-15 09:25:47.363]     [./data/son] Max length: 827
+[2019-10-15 09:25:47.363]     [./data/son] Min length: 176
+[2019-10-15 09:25:47.363]    ========================================
+[2019-10-15 09:25:47.364]    {'./data/moon': 0.5, './data/son': 0.5}
+[2019-10-15 09:25:47.364]    ========================================
+[2019-10-15 09:25:58.873]     [./data/moon] Loaded metadata for 34 examples (0.02 hours)
+[2019-10-15 09:25:58.873]     [./data/moon] Max length: 340
+[2019-10-15 09:25:58.873]     [./data/moon] Min length: 152
+[2019-10-15 09:26:11.394]     [./data/son] Loaded metadata for 38 examples (0.05 hours)
+[2019-10-15 09:26:11.394]     [./data/son] Max length: 827
+[2019-10-15 09:26:11.394]     [./data/son] Min length: 176
+[2019-10-15 09:26:11.395]    ========================================
+[2019-10-15 09:26:11.395]    {'./data/moon': 0.5, './data/son': 0.5}
+[2019-10-15 09:26:11.395]    ========================================
+[2019-10-15 09:26:13.734]    ========================================
+[2019-10-15 09:26:13.735]     model_type: deepvoice
+[2019-10-15 09:26:13.736]    ========================================
+[2019-10-15 09:26:13.736]    Initialized Tacotron model. Dimensions: 
+[2019-10-15 09:26:13.736]        embedding:                256
+[2019-10-15 09:26:13.736]        speaker embedding:        None
+[2019-10-15 09:26:13.736]        prenet out:               128
+[2019-10-15 09:26:13.736]        encoder out:              256
+[2019-10-15 09:26:13.737]        attention out:            256
+[2019-10-15 09:26:13.737]        concat attn & out:        512
+[2019-10-15 09:26:13.737]        decoder cell out:         256
+[2019-10-15 09:26:13.737]        decoder out (5 frames):  400
+[2019-10-15 09:26:13.737]        decoder out (1 frame):    80
+[2019-10-15 09:26:13.737]        postnet out:              256
+[2019-10-15 09:26:13.738]        linear out:               1025
+[2019-10-15 09:26:22.325]    ========================================
+[2019-10-15 09:26:22.327]     model_type: deepvoice
+[2019-10-15 09:26:22.327]    ========================================
+[2019-10-15 09:26:22.328]    Initialized Tacotron model. Dimensions: 
+[2019-10-15 09:26:22.328]        embedding:                256
+[2019-10-15 09:26:22.328]        speaker embedding:        None
+[2019-10-15 09:26:22.328]        prenet out:               128
+[2019-10-15 09:26:22.329]        encoder out:              256
+[2019-10-15 09:26:22.329]        attention out:            256
+[2019-10-15 09:26:22.329]        concat attn & out:        512
+[2019-10-15 09:26:22.330]        decoder cell out:         256
+[2019-10-15 09:26:22.330]        decoder out (5 frames):  400
+[2019-10-15 09:26:22.330]        decoder out (1 frame):    80
+[2019-10-15 09:26:22.330]        postnet out:              256
+[2019-10-15 09:26:22.331]        linear out:               1025
+[2019-10-15 09:26:26.399]    Resuming from checkpoint: logdir-tacotron/moon+son_2019-10-14_08-01-21\model.ckpt-2000 at commit: None
+[2019-10-15 09:26:26.477]    Generated 8 batches of size 4 in 0.000 sec
+[2019-10-15 09:26:29.985]    Generated 32 batches of size 32 in 3.508 sec
+[2019-10-15 09:26:33.096]    Step 2001    [6.620 sec/step, loss=1.21199, avg_loss=1.21199]
+[2019-10-15 09:26:36.570]    Step 2002    [5.047 sec/step, loss=1.13368, avg_loss=1.17284]
+[2019-10-15 09:26:38.393]    Step 2003    [3.972 sec/step, loss=1.08607, avg_loss=1.14391]
