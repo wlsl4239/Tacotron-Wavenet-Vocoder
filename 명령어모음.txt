@@ -9,3 +9,7 @@ python train_tacotron.py
 
 python train_vocoder.py
 
+
+in AWS
+
+background : nohup python3 train_tacotron.py &
