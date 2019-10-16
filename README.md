@@ -9,7 +9,6 @@ Based on
 - https://github.com/Rayhane-mamah/Tacotron-2
 
 
-
 ## Tacotron History
 - [keithito](https://github.com/keithito/tacotron)가 Tocotron을 처음 구현하여 공개하였고, 이를 기반으로 한국어를 적용한 [carpedm20](https://github.com/carpedm20/multi-speaker-tacotron-tensorflow)의 구현이 있다.
 - carpedm20의 구현은 deep voice2에서 제안하고 있는 multi-speaker도 같이 구현했다.
@@ -57,6 +56,7 @@ Based on
 - tacotron training 후, synthesize.py로 test.
 - wavenet training 후, generate.py로 test(tactron이 만들지 않은 mel spectrogram으로 test할 수도 있고, tacotron이 만든 mel spectrogram을 사용할 수도 있다.)
 - 2개 모델 모두 train 후, tacotron에서 생성한 mel spectrogram을 wavent에 local condition으로 넣어 test하면 된다.
+
 
 ### Data 만들기
 - audio data(e.g. wave 파일)을 다운받고,  1~3초(최대 12초)길이로 잘라주는 작업을 해야 한다. 그리고 잘라진 audio와 text(script)의 sync를 맞추는 것은 고단한 작업이다. Google Speech API를 이용하는 것도 하나의 방법이 될 수 있다.
