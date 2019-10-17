@@ -9,6 +9,7 @@ Based on
 - https://github.com/Rayhane-mamah/Tacotron-2
 - https://github.com/hccho2/Tacotron-Wavenet-Vocoder
 
+
 ## Tacotron History
 - [keithito](https://github.com/keithito/tacotron)가 Tocotron을 처음 구현하여 공개하였고, 이를 기반으로 한국어를 적용한 [carpedm20](https://github.com/carpedm20/multi-speaker-tacotron-tensorflow)의 구현이 있다.
 - carpedm20의 구현은 deep voice2에서 제안하고 있는 multi-speaker도 같이 구현했다.
@@ -97,7 +98,6 @@ parser.add_argument('--data_paths', default='D:\\Tacotron-Wavenet-Vocoder\\data\
 - [sample-moon](https://www.dropbox.com/s/y1kgmzka0cxp81d/moon-%EC%98%A4%EC%8A%A4%ED%8A%B8.wav?dl=0): tacotron(griffin-lim, step 106K)
 - [sample-son](https://www.dropbox.com/s/feptz8bfx7vsxlj/son-wavenet.wav?dl=0): tacotron + wavenet vocoder(step 245K)
 - [sample-moon](https://www.dropbox.com/s/rcz29g64v6pyzhv/moon-wavenet.wav?dl=0): tacotron + wavenet vocoder(step 245K)
-
 
 
 ### 음성을 처음 공부하는 분들께
