@@ -87,6 +87,9 @@ parser.add_argument('--data_paths', default='D:\\Tacotron-Wavenet-Vocoder\\data\
 > python synthesizer.py --load_path logdir-tacotron/moon+son_2018-12-25_19-03-21 --num_speakers 2 --speaker_id 0 --text "오스트랄로피테쿠스 아파렌시스는 멸종된 사람족 종으로, 현재에는 뼈 화석이 발견되어 있다." 
 ```
 
+### 한국어 폰트 깨짐문제
+- utils/plot.py의 10, 11번째 줄을 주석해제 한 후 plot.py를 실행.
+
 
 ### Result
 - tacotron모델에서는 griffin lim vocoder를 통해서 audio sample을 만들어 내는데, 음질이 나쁘지 않다.
