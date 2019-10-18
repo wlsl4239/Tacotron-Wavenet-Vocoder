@@ -16,13 +16,6 @@ Based on
 - Tacotron모델에서는 vocoder로 Griffin Lim 알고리즘을 사용하고 있다.
 
 
-## Wavenet History
-- Wavenet 구현은 [ibab](https://github.com/ibab/tensorflow-wavenet)의 구현이 대표적이다.
-- ibab은 local condition을 구현하지 않았다. 그래서 train 후, 소리를 생성하면 알아들을 수 있는 말이 아니고, '옹알거리는 소리'만 들을 수 있다. 의미 있는 소리를 들을 수 있기 위해서는 local condition이 적용해서 구현해야 한다.
-- local condition을 구현한 wavenet-vocoder 구현은 [r9y9](https://github.com/r9y9/wavenet_vocoder)의 구현이 대표적이다.
-- local condition으로 mel spectrogram을 넣어주는데, mel spectrogram은 raw audio 길이보다 짧아지기 때문에 upsampling 과정이 필요하다. upsampling은 conv2d_transpose를 이용한다.
-
-
 ## Tacotron 2
 - [Tacotron2](https://arxiv.org/abs/1712.05884)에서는 모델 구조도 바뀌었고, Location Sensitive Attention, Stop Token, Vocoder로 Wavenet을 제안하고 있다.
 - Tacotron2의 구현은 [Rayhane-mamah](https://github.com/Rayhane-mamah/Tacotron-2)의 것이 있는데, 이 역시, keithito, r9y9의 코드를 기반으로 발전된 것이다.
@@ -30,9 +23,8 @@ Based on
 
 
 ## This Project
-* Tacotron 모델에 Wavenet Vocoder를 적용하는 것이 1차 목표이다.
-* Tacotron과 Wavenet Vocoder를 같이 구현하기 위해서는 mel spectrogram을 만들때 부터, 두 모델 모두에 적용할 수 있도록 만들어 주어야 한다(audio의 길이가 hop_size의 배수가 될 수 있도록). 이렇게 해야, wavenet training할 때, upsampling이 원할하다.
-* Tacotron2의 stop token이나 Location Sensitive Attention을 Tacotron1에 적용하는  그렇게 효과적이지 못했다(제 경험상).
+* Tacotron 모델을 구현하여 KSS dataset을 통해 TTS를 구현하는 것이 1차 목표이다.
+* Tacotron2의 stop token이나 Location Sensitive Attention을 Tacotron1에 적용하는 것은 그렇게 효과적이지 못했다.
 * carpedm20의 구현과 다른 점
     * Tensorflow 1.3에서만 실행되는 carpedm20의 구현을 tensorflow 1.8이상에서도 작동할 수 있게 수정. Tensorflow가 버전이 업되면서, AttentionWrapperState에서 attention_state가 추가되었는데, 이 부분을 맞게 수정해 줌.
     * dropout bug 수정 
@@ -48,8 +40,6 @@ Based on
 ### 실행 순서
 - data 만들기
 - tacotron training 후, synthesize.py로 test.
-- wavenet training 후, generate.py로 test(tactron이 만들지 않은 mel spectrogram으로 test할 수도 있고, tacotron이 만든 mel spectrogram을 사용할 수도 있다.)
-- 2개 모델 모두 train 후, tacotron에서 생성한 mel spectrogram을 wavent에 local condition으로 넣어 test하면 된다.
 
 
 ### Data 만들기
@@ -60,9 +50,11 @@ Based on
 - KSS Dataset이나 LJ Speech Dataset는 이미 적당한 길이로 나누어져 있기 때문에, data의 Quality는 우수하다.
 - 각 speaker별로 wav 파일을 특정 directory에 모은 후, text와 wav파일의 관계를 설정하는 파일을 만든 후, preprocess.py를 실행하면 된다. 다음의 예는 son.py에서 확인 할 수 있듯이 'son-recognition-All.json'에 필요한 정보를 모아 놓았다.
 - 각자의 상황에 맞게 preprocessing하는 코드를 작성해야 한다. 이 project에서는 son, moon 2개의 example이 포함되어 있다.
-> python preprocess.py --num_workers 8 --name son --in_dir .\datasets\son --out_dir .\data\son
+```
+> python preprocess.py --num_workers 8 --name {speaker_name} --in_dir .\datasets\{speaker_name} --out_dir .\data\{speaker_name}
+```
 - 위의 과정을 거치든 또는 다른 방법을 사용하든 speaker별 data 디렉토리에 npz파일이 생성되면 train할수 있는 준비가 끝난다. npz파일에는 dict형의 data가 들어가게 되는데, key는 ['audio', 'mel', 'linear', 'time_steps', 'mel_frames', 'text', 'tokens', 'loss_coeff']로 되어 있다. 중요한 것은 audio의 길이가 mel, linear의 hop_size 배로 되어야 된다는 것이다.
-
+- 디렉토리를 잘 설정해주자. {speaker_name}에는 son, moon, kss 등이 들어가며, preprocess.py 에서 assert name부분에 추가해야 한다.
 
 ### Tacotron Training
 - train_tacotron.py 내에서 '--data_paths'를 지정한 후, train할 수 있다.
