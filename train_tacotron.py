@@ -258,12 +258,11 @@ def main():
 
     parser.add_argument('--log_dir', default='logdir-tacotron')
     
-    parser.add_argument('--data_paths', default='./data/moon,./data/son')
+    parser.add_argument('--data_paths', default='./data/moon,./data/son,./data/kss')
     
     
-    #parser.add_argument('--load_path', default=None)   # 아래의 'initialize_path'보다 우선 적용
-    parser.add_argument('--load_path', default='logdir-tacotron/moon+son_2019-10-14_08-01-21')
-    
+    # parser.add_argument('--load_path', default=None)   # 아래의 'initialize_path'보다 우선 적용
+    parser.add_argument('--load_path', default='logdir-tacotron/moon+son+kss_2019-10-16_15-06-00')
     
     parser.add_argument('--initialize_path', default=None)   # ckpt로 부터 model을 restore하지만, global step은 0에서 시작
 
@@ -272,7 +271,7 @@ def main():
     parser.add_argument('--random_seed', type=int, default=123)
     parser.add_argument('--summary_interval', type=int, default=100000)
     parser.add_argument('--test_interval', type=int, default=500)  # 500
-    parser.add_argument('--checkpoint_interval', type=int, default=2000) # 2000
+    parser.add_argument('--checkpoint_interval', type=int, default=500) # 2000 -> 500
     parser.add_argument('--skip_path_filter', type=str2bool, default=False, help='Use only for debugging')
 
     parser.add_argument('--slack_url', help='Slack webhook URL to get periodic reports.')
