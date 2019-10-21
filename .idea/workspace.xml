@@ -2,7 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fd78e35-99ff-4489-b05f-8f213d127ef8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/train_tacotron.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_tacotron.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuinna.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/events.out.tfevents.1571206056.DESKTOP-KVCQHCD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-1000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-1000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-1000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-1500.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-1500.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-1500.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-2000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-2000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-2000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-2500.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-2500.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-2500.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-500.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-500.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/model.ckpt-500.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000000500-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000000500-align001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000000500-align002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000000500-align003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000000500-align004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000000500-align005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000000500-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000000500-audio001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000000500-audio002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000000500-audio003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000000500-audio004.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000000500-audio005.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001000-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001000-align001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001000-align002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001000-align003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001000-align004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001000-align005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001000-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001000-audio001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001000-audio002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001000-audio003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001000-audio004.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001000-audio005.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001500-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001500-align001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001500-align002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001500-align003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001500-align004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001500-align005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001500-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001500-audio001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001500-audio002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001500-audio003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001500-audio004.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000001500-audio005.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002000-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002000-align001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002000-align002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002000-align003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002000-align004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002000-align005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002000-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002000-audio001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002000-audio002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002000-audio003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002000-audio004.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002000-audio005.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002500-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002500-align001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002500-align002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002500-align003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002500-align004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002500-align005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002500-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002500-audio001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002500-audio002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002500-audio003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002500-audio004.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/test-step-000002500-audio005.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train-step-000000500-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train-step-000000500-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train-step-000001000-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train-step-000001000-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train-step-000001500-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train-step-000001500-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train-step-000002000-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train-step-000002000-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train-step-000002500-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train-step-000002500-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train.log" beforeDir="false" afterPath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/events.out.tfevents.1571040100.ip-172-26-14-124" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/events.out.tfevents.1571099184.DESKTOP-KVCQHCD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/hparams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/model.ckpt-2000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/model.ckpt-2000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/model.ckpt-2000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/params.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000000500-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000000500-align001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000000500-align002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000000500-align003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000000500-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000000500-audio001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000000500-audio002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000000500-audio003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001000-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001000-align001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001000-align002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001000-align003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001000-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001000-audio001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001000-audio002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001000-audio003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001500-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001500-align001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001500-align002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001500-align003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001500-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001500-audio001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001500-audio002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000001500-audio003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002000-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002000-align001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002000-align002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002000-align003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002000-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002000-audio001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002000-audio002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002000-audio003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002500-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002500-align001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002500-align002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002500-align003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002500-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002500-audio001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002500-audio002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/test-step-000002500-audio003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/train-step-000000500-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/train-step-000000500-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/train-step-000001000-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/train-step-000001000-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/train-step-000001500-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/train-step-000001500-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/train-step-000002000-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/train-step-000002000-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/train-step-000002500-align000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/train-step-000002500-audio000.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_08-01-21/train.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/plot.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,19 +199,19 @@
     <session id="1107548577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="19" />
           <entry key="md" value="1" />
-          <entry key="py" value="245" />
+          <entry key="py" value="467" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
@@ -70,26 +220,28 @@
           <entry key="JSON" value="19" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="245" />
+          <entry key="Python" value="467" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="checkpoint" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="json" value="5" />
-          <entry key="md" value="1" />
+          <entry key="md" value="3" />
+          <entry key="npy" value="1" />
           <entry key="png" value="2" />
-          <entry key="py" value="21" />
-          <entry key="txt" value="5" />
+          <entry key="py" value="27" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="2" />
           <entry key="JSON" value="5" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="21" />
+          <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
     </session>
@@ -99,7 +251,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="943">
               <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
               <folding>
                 <element signature="e#338#353#0" expanded="true" />
@@ -109,10 +261,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yuinna.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/synthesizer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6785">
+              <caret line="314" column="42" selection-start-line="314" selection-start-column="42" selection-end-line="314" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_tacotron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="264" column="76" selection-start-line="264" selection-start-column="76" selection-end-line="264" selection-end-column="76" />
+            <state relative-caret-position="292">
+              <caret line="286" column="62" selection-start-line="286" selection-start-column="62" selection-end-line="286" selection-end-column="62" />
               <folding>
                 <element signature="e#16#25#0" expanded="true" />
               </folding>
@@ -121,10 +303,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="71">
+                <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="1081">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -151,6 +345,9 @@
       <find>compile</find>
       <find>,</find>
       <find>test_interval</find>
+      <find>datasets</find>
+      <find>gpu</find>
+      <find>sess_config</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,7 +359,6 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/datasets/kim_anchor.py" />
         <option value="$PROJECT_DIR$/utils/__init__.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/datasets/kss/transcript.v.1.3.txt" />
         <option value="$PROJECT_DIR$/datasets/moon.py" />
         <option value="$PROJECT_DIR$/datasets/kss.py" />
@@ -171,14 +367,16 @@
         <option value="$PROJECT_DIR$/datasets/kss4.py" />
         <option value="$PROJECT_DIR$/preprocess.py" />
         <option value="$PROJECT_DIR$/datasets/kss123.py" />
-        <option value="$PROJECT_DIR$/utils/plot.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/utils/plot.py" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/train_tacotron.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
+    <option name="x" value="425" />
+    <option name="y" value="-20" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -187,6 +385,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,13 +396,12 @@
             <path>
               <item name="s1p1151005" type="b2602c69:ProjectViewProjectNode" />
               <item name="s1p1151005" type="462c0819:PsiDirectoryNode" />
-              <item name="logdir-tacotron" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,6 +409,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\ssafy\s1p1151005" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\multicampus\Desktop\ssafy\s1p1151005\datasets" />
     </key>
@@ -278,10 +479,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19167218" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19167218" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,7 +493,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4990086" visible="true" weight="0.4318182" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4990086" visible="true" weight="0.40198863" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009914" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -311,19 +512,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datasets/yuinna.py" />
     <entry file="file://$PROJECT_DIR$/datasets/kim_anchor.py" />
     <entry file="file://$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_14-49-55/train.log" />
     <entry file="file://$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_14-48-25/train.log" />
     <entry file="file://$PROJECT_DIR$/datasets/news_ids.json" />
     <entry file="file://$PROJECT_DIR$/logdir-tacotron/moon+son_2019-10-14_15-00-54/hparams.py" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/moon-오스트.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -361,16 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2116">
           <caret line="92" column="43" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -439,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/plot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hparams.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -453,9 +629,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/checkpoint">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logdir-tacotron/generate/2019-10-18_16-40-12.npy" />
     <entry file="file://$PROJECT_DIR$/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="943">
           <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
           <folding>
             <element signature="e#338#353#0" expanded="true" />
@@ -463,20 +650,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/synthesizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6785">
+          <caret line="314" column="42" selection-start-line="314" selection-start-column="42" selection-end-line="314" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/train_tacotron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="264" column="76" selection-start-line="264" selection-start-column="76" selection-end-line="264" selection-end-column="76" />
+        <state relative-caret-position="292">
+          <caret line="286" column="62" selection-start-line="286" selection-start-column="62" selection-end-line="286" selection-end-column="62" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="71">
+            <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yuinna.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="230">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
