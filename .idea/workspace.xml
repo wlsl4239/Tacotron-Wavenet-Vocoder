@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fd78e35-99ff-4489-b05f-8f213d127ef8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train.log" beforeDir="false" afterPath="$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/train.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/korean.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/korean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_tacotron.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_tacotron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/명령어모음.txt" beforeDir="false" afterPath="$PROJECT_DIR$/명령어모음.txt" afterDir="false" />
-    </list>
+    <list default="true" id="4fd78e35-99ff-4489-b05f-8f213d127ef8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +47,12 @@
     <session id="1107548577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="4" />
-          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -83,12 +75,12 @@
         <counts>
           <entry key="Local (1)" value="1" />
           <entry key="checkpoint" value="1" />
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="4" />
           <entry key="json" value="6" />
           <entry key="md" value="3" />
           <entry key="npy" value="1" />
           <entry key="png" value="2" />
-          <entry key="py" value="33" />
+          <entry key="py" value="36" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
@@ -97,8 +89,8 @@
           <entry key="Image" value="2" />
           <entry key="JSON" value="6" />
           <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="33" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Python" value="36" />
           <entry key="Terminal Session" value="1" />
         </counts>
       </usages-collector>
@@ -107,22 +99,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_tacotron.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="257" selection-start-line="257" selection-end-line="257" />
-              <folding>
-                <element signature="e#16#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+            <state relative-caret-position="151">
+              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="e#338#353#0" expanded="true" />
               </folding>
@@ -131,10 +111,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/datasets/yuinna2.py">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -207,12 +187,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="738" />
-    <option name="y" value="-15" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -226,17 +206,6 @@
               <item name="s1p1151005" type="b2602c69:ProjectViewProjectNode" />
               <item name="s1p1151005" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="s1p1151005" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s1p1151005" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s1p1151005" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s1p1151005" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
-              <item name="yuinna2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -248,11 +217,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\multicampus\Desktop\ssafy\s1p1151005" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\multicampus\Desktop\ssafy\s1p1151005\datasets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\ssafy\s1p1151005" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -318,9 +287,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17118308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1956378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -331,7 +301,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4990086" visible="true" weight="0.35511363" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4990086" visible="true" weight="0.35511363" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009914" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -456,13 +426,6 @@
     <entry file="file://$PROJECT_DIR$/logdir-tacotron/moon+son+kss_2019-10-16_15-06-00/checkpoint">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logdir-tacotron/generate/2019-10-18_16-40-12.npy" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -513,9 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5336">
           <caret line="238" column="25" selection-start-line="238" selection-start-column="25" selection-end-line="238" selection-end-column="25" />
-          <folding>
-            <element signature="e#34#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -544,9 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,26 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-          <folding>
-            <element signature="e#338#353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_tacotron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="257" selection-start-line="257" selection-end-line="257" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,8 +523,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datasets/yuinna2.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../새 폴더/s1p1151005/train_tacotron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="264" column="74" selection-start-line="264" selection-start-column="74" selection-end-line="264" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_tacotron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="268" column="44" selection-start-line="268" selection-start-column="44" selection-end-line="268" selection-end-column="44" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../새 폴더/s1p1151005/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-723">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="e#338#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
