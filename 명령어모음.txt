@@ -12,4 +12,6 @@ python preprocess.py --num_workers 8 --name yuinna2 --in_dir .\datasets\yuinna2 
 python train_tacotron.py
 python train_vocoder.py
 
-python synthesizer.py --load_path logdir-tacotron/kss+yuinna2+39_2019-10-28_13-36-26 --num_speakers 3 --speaker_id 2 --text 안녕하세요?
+python synthesizer.py --load_path logdir-tacotron/kss+yuinna2_2019-10-23_15-47-37 --num_speakers 2 --speaker_id 1 --text "아름다운 밤이네요"
+
+python synthesizer.py --load_path logdir-tacotron/kkss+yuinna2+39_2019-10-28_16-24-33 --num_speakers 3 --speaker_id 2 --text 안녕하세요?

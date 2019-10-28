@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4fd78e35-99ff-4489-b05f-8f213d127ef8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/korean.py" beforeDir="false" afterPath="$PROJECT_DIR$/text/korean.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train_tacotron.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_tacotron.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/명령어모음.txt" beforeDir="false" afterPath="$PROJECT_DIR$/명령어모음.txt" afterDir="false" />
     </list>
@@ -51,20 +52,21 @@
     <session id="1107548577">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="5" />
+          <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="298" />
           <entry key="md" value="1" />
-          <entry key="py" value="568" />
+          <entry key="py" value="583" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
@@ -73,7 +75,7 @@
           <entry key="JSON" value="298" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="568" />
+          <entry key="Python" value="583" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,7 +87,7 @@
           <entry key="md" value="3" />
           <entry key="npy" value="1" />
           <entry key="png" value="2" />
-          <entry key="py" value="37" />
+          <entry key="py" value="39" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
@@ -95,7 +97,7 @@
           <entry key="JSON" value="6" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="37" />
+          <entry key="Python" value="39" />
           <entry key="Terminal Session" value="1" />
         </counts>
       </usages-collector>
@@ -106,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="58" column="93" selection-start-line="58" selection-start-column="93" selection-end-line="58" selection-end-column="93" />
+            <state relative-caret-position="1288">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
                 <element signature="e#338#353#0" expanded="true" />
               </folding>
@@ -118,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_tacotron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="152">
               <caret line="264" column="98" selection-start-line="264" selection-start-column="98" selection-end-line="264" selection-end-column="98" />
             </state>
           </provider>
@@ -127,8 +129,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/명령어모음.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="130" lean-forward="true" selection-start-line="14" selection-start-column="130" selection-end-line="14" selection-end-column="130" />
+            <state relative-caret-position="276">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text/korean.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7061">
+              <caret line="313" column="21" selection-start-line="313" selection-start-column="21" selection-end-line="313" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datasets/yuinna2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="897">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -136,7 +156,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datasets/39.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
+            <state relative-caret-position="575">
               <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
             </state>
           </provider>
@@ -211,18 +231,19 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/datasets/yuinna.py" />
         <option value="$PROJECT_DIR$/datasets/yuinna/yuinna_recognition_All.json" />
-        <option value="$PROJECT_DIR$/text/korean.py" />
         <option value="$PROJECT_DIR$/datasets/yuinna2.py" />
         <option value="$PROJECT_DIR$/datasets/yuinna2/yuinna2_recognition_All.json" />
         <option value="$PROJECT_DIR$/datasets/39.py" />
         <option value="$PROJECT_DIR$/preprocess.py" />
+        <option value="$PROJECT_DIR$/text/korean.py" />
         <option value="$PROJECT_DIR$/train_tacotron.py" />
         <option value="$PROJECT_DIR$/명령어모음.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
+    <option name="x" value="360" />
+    <option name="y" value="-15" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -238,16 +259,6 @@
             <path>
               <item name="s1p1151005" type="b2602c69:ProjectViewProjectNode" />
               <item name="s1p1151005" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s1p1151005" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s1p1151005" type="462c0819:PsiDirectoryNode" />
-              <item name="logdir-tacotron" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="s1p1151005" type="b2602c69:ProjectViewProjectNode" />
-              <item name="s1p1151005" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,7 +345,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1956378" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1956378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -345,7 +356,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4990086" visible="true" weight="0.35511363" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4990086" visible="true" weight="0.35511363" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5009914" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -510,13 +521,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datasets/yuinna/yuinna_recognition_All.json" />
-    <entry file="file://$PROJECT_DIR$/text/korean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5336">
-          <caret line="238" column="25" selection-start-line="238" selection-start-column="25" selection-end-line="238" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/synthesizer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6785">
@@ -559,24 +563,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../새 폴더/s1p1151005/train_tacotron.py" />
+    <entry file="file://$PROJECT_DIR$/../../새 폴더/s1p1151005/preprocess.py" />
+    <entry file="file://$PROJECT_DIR$/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#338#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/korean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7061">
+          <caret line="313" column="21" selection-start-line="313" selection-start-column="21" selection-end-line="313" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/datasets/yuinna2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
+        <state relative-caret-position="897">
           <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../새 폴더/s1p1151005/train_tacotron.py">
+    <entry file="file://$PROJECT_DIR$/datasets/39.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="264" column="74" selection-start-line="264" selection-start-column="74" selection-end-line="264" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../새 폴더/s1p1151005/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-723">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="575">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -587,34 +603,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datasets/39.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="58" column="93" selection-start-line="58" selection-start-column="93" selection-end-line="58" selection-end-column="93" />
-          <folding>
-            <element signature="e#338#353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/train_tacotron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="152">
           <caret line="264" column="98" selection-start-line="264" selection-start-column="98" selection-end-line="264" selection-end-column="98" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/명령어모음.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="130" lean-forward="true" selection-start-line="14" selection-start-column="130" selection-end-line="14" selection-end-column="130" />
+        <state relative-caret-position="276">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>

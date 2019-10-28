@@ -269,7 +269,7 @@ def number_to_korean(num_str, is_count=False):
     tmp = []
 
     for i, v in enumerate(digit_str, start=1):
-        #v = int(v)
+        v = int(v)
 
         if v != 0:
             if is_count:
@@ -320,4 +320,5 @@ if __name__ == "__main__":
     test_normalize('비대위원장이 지난 1월 이런 말을 했습니다. “난 그냥 산돼지처럼 돌파하는 스타일이다”')
     test_normalize("지금은 -12.35%였고 종류는 5가지와 19가지, 그리고 55가지였다")
     test_normalize("JTBC는 TH와 K 양이 2017년 9월 12일 오후 12시에 24살이 된다")
+    test_normalize("0107님 반갑습니다")
     print(list(hangul_to_jamo(list(hangul_to_jamo('비대위원장이 지난 1월 이런 말을 했습니다? “난 그냥 산돼지처럼 돌파하는 스타일이다”')))))

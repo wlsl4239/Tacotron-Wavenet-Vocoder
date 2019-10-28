@@ -262,7 +262,7 @@ def main():
     
     
     # parser.add_argument('--load_path', default=None)   # 아래의 'initialize_path'보다 우선 적용
-    parser.add_argument('--load_path', default='logdir-tacotron/kss+yuinna2+39_2019-10-28_13-36-26')
+    parser.add_argument('--load_path', default='logdir-tacotron/kss+yuinna2+39_2019-10-28_16-24-33')
     
     parser.add_argument('--initialize_path', default=None)   # ckpt로 부터 model을 restore하지만, global step은 0에서 시작
 
