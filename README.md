@@ -24,6 +24,7 @@ Based on
 
 ## This Project
 * Tacotron 모델을 구현하여 KSS dataset을 통해 TTS를 구현하는 것이 1차 목표이다.
+* KSS dataset을 기초로 추가적인 목소리를 학습하는 것이 2차 목표이다.
 * Tacotron2의 stop token이나 Location Sensitive Attention을 Tacotron1에 적용하는 것은 그렇게 효과적이지 못했다.
 * carpedm20의 구현과 다른 점
     * Tensorflow 1.3에서만 실행되는 carpedm20의 구현을 tensorflow 1.8이상에서도 작동할 수 있게 수정. Tensorflow가 버전이 업되면서, AttentionWrapperState에서 attention_state가 추가되었는데, 이 부분을 맞게 수정해 줌.
