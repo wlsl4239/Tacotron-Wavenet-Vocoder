@@ -1,5 +1,7 @@
 # Tocotron + Korean TTS
-Tacotron모델을 구현하여 한국어 TTS구현하는 project입니다.
+Tacotron모델을 구현하여 한국어 TTS구현하는 project입니다.   
+git에 올라온 이 프로젝트 폴더에는 dataset, data가 업로드 되어있지 않습니다.  
+최종 학습 130K step 완료. KSS, yuinna, 39 목소리 학습완료.
 
 Based on 
 - https://github.com/keithito/tacotron
