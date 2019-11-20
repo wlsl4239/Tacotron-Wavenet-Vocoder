@@ -91,11 +91,14 @@ parser.add_argument('--data_paths', default='D:\\Tacotron-Wavenet-Vocoder\\data\
 
 ### Result
 
-
 ![일찍 신청하는 사람이 유리할거야](./result/1.gif)  
 ![이 두 소설은 줄거리가 유사해요](./result/2.gif)  
 ![독서는 시간을 보내는 좋은 방법이다](./result/3.gif)  
-![맞아 학생들 진짜 바쁠 거 같아요...](./result/4gif)  
+  
+![1](./result/r1.wav)  
+![2](./result/r2.wav)  
+![3](./result/r3.wav)  
+![4](./result/r4.wav)  
 
 
 ### 음성을 처음 공부하는 분들께
