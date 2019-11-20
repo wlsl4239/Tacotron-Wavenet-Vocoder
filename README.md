@@ -1,5 +1,9 @@
 # Tocotron + Korean TTS
-Tacotron모델을 구현하여 한국어 TTS구현하는 project입니다.
+Tacotron모델을 구현하여 한국어 TTS구현하는 project입니다. 프로젝트에 사용한 dataset은 3가지 방법으로 가공하였습니다.  
+1. KSS dataset (12h)  
+2. 라디오 음성 가공 및 스크립트 작성 (6h)  
+3. KSS 스크립트를 이용해 직접 녹음 (5h)  
+결과는 KSS > 직접 녹음 > 라디오음성 순으로 정확했습니다.
 
 Based on 
 - https://github.com/keithito/tacotron
