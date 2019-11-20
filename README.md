@@ -92,10 +92,10 @@ parser.add_argument('--data_paths', default='D:\\Tacotron-Wavenet-Vocoder\\data\
 ### Result
 
 
-![일찍 신청하는 사람이 유리할거야](./result/일찍 신청하는 사람이 유리할거야.gif)  
-![이 두 소설은 줄거리가 유사해요](./result/이 두 소설은 줄거리가 유사해요.gif)  
-![독서는 시간을 보내는 좋은 방법이다](./result/독서는 시간을 보내는 좋은 방법이다..gif)  
-![맞아 학생들 진짜 바쁠 거 같아요...](./result/맞아 학생들 진짜 바쁠 거 같아요. 이거 다 숙제도 해야 되고 과제 하고 시험 보고 뭐 하고 뭐 하고 근데 문제는.gif)  
+![일찍 신청하는 사람이 유리할거야](./result/1.gif)  
+![이 두 소설은 줄거리가 유사해요](./result/2.gif)  
+![독서는 시간을 보내는 좋은 방법이다](./result/3.gif)  
+![맞아 학생들 진짜 바쁠 거 같아요...](./result/4gif)  
 
 
 ### 음성을 처음 공부하는 분들께
@@ -104,9 +104,7 @@ parser.add_argument('--data_paths', default='D:\\Tacotron-Wavenet-Vocoder\\data\
 * Simple Audio Recognition을 공부한 후에는 Tacotron을 공부할 수 있수도 있지만, 딥러닝에서의 기본인 RNN, Attention에 관한 공부를 미리해 두며 더욱 좋다.
 * 이 [자료](https://github.com/hccho2/hccho2.github.io/blob/master/DeepLearning.pdf)는 음성인식 기초, Tacotron, Wavenet 등에 관한 내용을 정리한 것입니다(page 133).
 * 또한 Tensorflow에서 Attention Mechanism이 어떻게 작동되는지에 관한 자료도 정리되어 있습니다(page 69).
-* Facebook TFKR의 [글](https://www.facebook.com/groups/TensorFlowKR/permalink/813421485665578/)도 참고하세요.
-* 
-
+* Facebook TFKR의 [글](https://www.facebook.com/groups/TensorFlowKR/permalink/813421485665578/)도 참고하세요. 
 
 
 
