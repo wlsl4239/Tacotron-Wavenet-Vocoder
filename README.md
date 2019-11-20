@@ -3,9 +3,11 @@ Tacotron모델을 구현하여 한국어 TTS구현하는 project입니다. 프�
 1. KSS dataset (12h)  
 2. 라디오 음성 가공 및 스크립트 작성 (6h)  
 3. KSS 스크립트를 이용해 직접 녹음 (5h)  
-결과는 KSS > 직접 녹음 > 라디오음성 순으로 정확했습니다.
-이 repository에는 개인 보호 차원에서 dataset과 학습 결과는 제공하지 않습니다.  
-결과 및 간단한 예시는 "목이아파서하루쉽니다_final.pptx"를 참고해주세요.  
+결과는 KSS > 직접 녹음 > 라디오음성 순으로 정확했습니다.  
+
+
+* 이 repository에는 개인 보호 차원에서 dataset과 학습 결과는 제공하지 않습니다.  
+* 결과 및 간단한 예시는 "목이아파서하루쉽니다_final.pptx"를 참고해주세요.  
 
 Based on 
 - https://github.com/keithito/tacotron
